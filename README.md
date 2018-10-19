@@ -1,2 +1,2 @@
 # Calculator
-JavaScritp calculator
+In progress: JavaScritp calculator
