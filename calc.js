@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var collectInput = 0;
 var ev;
 // TODO https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Legacy_Internet_Explorer_and_attachEvent
@@ -56,5 +57,16 @@ function evaluate(collectInput){
 // add event listener to button
 var numb = document.getElementById("box");
 numb.addEventListener("click", addEL, false);
+=======
+function modifyText (e) {
+     if(e.target !== e.currentTarget){
+     console.log(e.target.value);
+     }
+e.stopPropagation ();
+}
+// add event listener to button
+var numb = document.getElementById("box");
+numb.addEventListener("click", modifyText, false);
+>>>>>>> bc405aafb2de6cbcb86cec032130a3c8e676846e
 
 // TODO https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Legacy_Internet_Explorer_and_attachEvent
